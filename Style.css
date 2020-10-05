@@ -19,9 +19,7 @@ nav span {
 }
 p {
   font-size: 1.1rem;
-  line-height: 27px;
   text-align: justify;
-  color: var(--para-color);
 }
 a {
   color: var(--background);
@@ -171,7 +169,15 @@ iframe {
   background-color: #e2e2e2;
   border-radius: 5px;
   margin-bottom: 1rem;
-  padding: 0rem 1rem 0rem 1rem;
+}
+#faq h2 {
+  background: #b9b8b8;
+  cursor: pointer;
+  border-radius: 5px;
+}
+#faq .faq-qus i {
+  position: absolute;
+  right: 3%;
 }
 .box {
   background-color: var(--background);
@@ -221,5 +227,5 @@ iframe {
   color: #f79b46;
   text-align: center;
   font-size: 2rem;
-  height: 35px;
+  height: 50px;
 }

@@ -1,4 +1,4 @@
-let createDate = new Date("sep 8, 2020 12:00:00").getTime();
+let createDate = new Date("jan 8, 2021 12:00:00").getTime();
 let x = setInterval(function () {
   let now = new Date().getTime();
   let diff = createDate - now;

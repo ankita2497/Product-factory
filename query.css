@@ -9,8 +9,8 @@
   .session-content {
     width: 100%;
   }
-  #faq .row {
-    padding: 0;
+  #faq .faq-qus i {
+    right: 7%;
   }
   .Demo {
     font-size: 1.5rem;
